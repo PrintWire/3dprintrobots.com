@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="3D Print Robots: additive manufacturing for robotics — printed arms, compliant grippers, chassis, drones, and mechanisms. News, research, and a supplier directory.">
+  <title>3D Print Robots — Robotics Additive Manufacturing News &amp; Suppliers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/editorial.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="3D Print Robots — Robotics Additive Manufacturing News &amp; Suppliers">
+  <meta property="og:description" content="3D Print Robots: additive manufacturing for robotics — printed arms, compliant grippers, chassis, drones, and mechanisms. News, research, and a supplier directory.">
+  <meta property="og:image" content="https://3dprintrobots.com/images/rb01_robot_arm.png">
+  <meta property="og:url" content="https://3dprintrobots.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://3dprintrobots.com/images/rb01_robot_arm.png">
+</head>
+<body>
+
+<header class="ed-header">
+  <div class="ed-header-inner">
+    <a href="index.html" class="ed-logo">
+      3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">ROBOTS</span>
+    </a>
+    <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
+    <nav class="ed-nav">
+      <a href="index.html" class="active">News</a>
+      <a href="/articles/">Research</a>
+      <a href="#suppliers">Suppliers</a>
+      <a href="#suppliers">Materials</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="ed-theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">&#9790;</button>
+  </div>
+</header>
+
+<div class="ed-breadcrumbs">
+  <a href="index.html">Home</a> <span>/</span> Robotics Additive Manufacturing News
+</div>
+
+<div class="ed-layout">
+  <div class="ed-main">
+
+    <article class="ed-hero">
+      <img src="images/rb01_robot_arm.png" alt="3D printed six-axis robotic arm">
+      <div class="ed-hero-overlay"></div>
+      <div class="ed-hero-content">
+        <span class="ed-badge">Robotics</span>
+        <h1><a href="#">Printed Robots Are Reaching Production-Grade Structure</a></h1>
+        <div class="ed-hero-meta">
+          <span>June 27, 2026</span>
+          <span>·</span>
+          <span>8 min read</span>
+          <span>·</span>
+          <span>By PrintWire Editorial</span>
+        </div>
+        <p class="ed-hero-excerpt">Lightweight arms, compliant grippers, and custom chassis printed as single net-shape parts are moving from lab rigs into working robots — cutting mass, part count, and assembly.</p>
+      </div>
+    </article>
+
+    <div class="ed-stats">
+      <div class="ed-stat">
+        <div class="ed-stat-value">net-shape</div>
+        <div class="ed-stat-label">One-Piece Parts</div>
+      </div>
+      <div class="ed-stat">
+        <div class="ed-stat-value">&lt;50%</div>
+        <div class="ed-stat-label">Mass vs Machined</div>
+      </div>
+      <div class="ed-stat">
+        <div class="ed-stat-value">48hr</div>
+        <div class="ed-stat-label">Prototyping</div>
+      </div>
+      <div class="ed-stat">
+        <div class="ed-stat-value">60+</div>
+        <div class="ed-stat-label">Active Suppliers</div>
+      </div>
+    </div>
+
+    <div class="ed-section-label" style="border-left:3px solid var(--accent);padding-left:0.6rem;">
+      PrintWire Originals
+      <a href="/articles/">View All &rarr;</a>
+    </div>
+    <div class="ed-card-grid" id="pwOriginals">
+      <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-faint);">Loading PrintWire articles…</div>
+    </div>
+
+    <div class="ed-section-label">
+      Latest Industry News
+      <a href="#">View All &rarr;</a>
+    </div>
+    <div class="ed-card-grid" id="newsGrid">
+      <div style="grid-column: 1/-1; text-align:center; padding:2rem; color:var(--text-faint);">Loading latest news…</div>
+    </div>
+
+    <div class="ed-section-label">
+      Analysis &amp; Deep Dives
+      <a href="#">View All &rarr;</a>
+    </div>
+    <div class="ed-list">
+      <article class="ed-list-item">
+        <img src="images/rb02_gripper.png" alt="Compliant printed gripper">
+        <div>
+          <span class="ed-badge">Grippers</span>
+          <div class="ed-card-meta">June 24, 2026 · 9 min read</div>
+          <h3><a href="#">One-Piece Compliant Grippers Skip the Assembly Line</a></h3>
+          <p class="ed-card-excerpt">Flexure-based end effectors printed in a single pass are replacing multi-part grippers — no springs, pins, or fasteners, and tunable stiffness per task.</p>
+        </div>
+      </article>
+      <article class="ed-list-item">
+        <img src="images/rb03_chassis.png" alt="Printed robot chassis">
+        <div>
+          <span class="ed-badge">Chassis</span>
+          <div class="ed-card-meta">June 20, 2026 · 7 min read</div>
+          <h3><a href="#">Lattice Chassis Cut Robot Mass Without Losing Stiffness</a></h3>
+          <p class="ed-card-excerpt">Topology-optimized printed frames are shedding weight from mobile robots and drones while holding the stiffness that motion accuracy depends on.</p>
+        </div>
+      </article>
+      <article class="ed-list-item">
+        <img src="images/rb04_humanoid.png" alt="Printed humanoid hand">
+        <div>
+          <span class="ed-badge">Humanoids</span>
+          <div class="ed-card-meta">June 18, 2026 · 10 min read</div>
+          <h3><a href="#">Printed Hands Put Tendon Routing Inside the Part</a></h3>
+          <p class="ed-card-excerpt">Articulated humanoid hands with internal tendon channels are printing as near-complete assemblies — collapsing weeks of fabrication into a single build.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="ed-section-label">
+      Applications We Cover
+    </div>
+    <div class="ed-card-grid" style="grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2.5rem;">
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/rb01_robot_arm.png" alt="Robotic Arms">
+        <div class="ed-card-body"><h3>Robotic Arms</h3></div>
+      </a>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/rb02_gripper.png" alt="Grippers">
+        <div class="ed-card-body"><h3>Grippers</h3></div>
+      </a>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/rb03_chassis.png" alt="Chassis &amp; Frames">
+        <div class="ed-card-body"><h3>Chassis &amp; Frames</h3></div>
+      </a>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/rb06_drone_frame.png" alt="Drone Airframes">
+        <div class="ed-card-body"><h3>Drone Airframes</h3></div>
+      </a>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/rb05_quadruped.png" alt="Legged Robots">
+        <div class="ed-card-body"><h3>Legged Robots</h3></div>
+      </a>
+      <a href="#" class="ed-card" style="text-align:center;">
+        <img class="ed-card-img" src="images/rb07_servo_mount.png" alt="Servo Mounts">
+        <div class="ed-card-body"><h3>Servo Mounts</h3></div>
+      </a>
+    </div>
+
+    <div class="ed-load-more">
+      <button>Load More Articles</button>
+    </div>
+
+  </div>
+
+  <aside class="ed-sidebar">
+
+    <div class="ed-sidebar-block ed-newsletter">
+      <h4>Newsletter</h4>
+      <p>Printed-robotics breakthroughs, engineering-polymer research, and mechanism projects — delivered monthly. No spam.</p>
+      <form action="https://api.web3forms.com/submit" method="POST" onsubmit="this.querySelector('button').textContent='Subscribed!';this.querySelector('button').disabled=true;">
+        <input type="hidden" name="access_key" value="6f33053b-6d08-414b-9615-665f88c98da8">
+        <input type="hidden" name="subject" value="Newsletter Signup — 3dprintrobots.com">
+        <input type="hidden" name="from_name" value="Newsletter Signup">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="ed-sidebar-block" id="suppliers">
+      <h4>Suppliers &amp; Connections</h4>
+      <div class="ed-popular-item">
+        <div>
+          <h3><a href="#">Printers &amp; Systems</a></h3>
+          <div class="ed-popular-meta">FFF, SLS &amp; metal platforms for robotics · 13 suppliers</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <div>
+          <h3><a href="#">Engineering Polymers</a></h3>
+          <div class="ed-popular-meta">Nylon, PC, PEEK &amp; carbon-filled filaments · 17 suppliers</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <div>
+          <h3><a href="#">Gears &amp; Bearings</a></h3>
+          <div class="ed-popular-meta">Printed gear trains, bearings &amp; bushings · 14 listed</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <div>
+          <h3><a href="#">Service Bureaus</a></h3>
+          <div class="ed-popular-meta">Robotics &amp; mechanism prototyping · 20 listed</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ed-sidebar-block">
+      <h4>Most Read</h4>
+      <div class="ed-popular-item">
+        <span class="ed-popular-num">1</span>
+        <div>
+          <h3><a href="#">One-Piece Compliant Grippers Reach Industrial Duty Cycles</a></h3>
+          <div class="ed-popular-meta">8.9K reads</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <span class="ed-popular-num">2</span>
+        <div>
+          <h3><a href="#">Carbon-Filled Nylon Arms Hit Aluminum Stiffness at Half the Mass</a></h3>
+          <div class="ed-popular-meta">7.7K reads</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <span class="ed-popular-num">3</span>
+        <div>
+          <h3><a href="#">Printed Drone Airframes Survive Crash Testing</a></h3>
+          <div class="ed-popular-meta">6.4K reads</div>
+        </div>
+      </div>
+      <div class="ed-popular-item">
+        <span class="ed-popular-num">4</span>
+        <div>
+          <h3><a href="#">Humanoid Hands Printed as Near-Complete Assemblies</a></h3>
+          <div class="ed-popular-meta">5.6K reads</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ed-sidebar-block" style="text-align:center; color: var(--text-faint); font-size: 0.75rem; padding: 2.5rem 1rem;">
+      <div style="border: 1px dashed var(--border); border-radius: 4px; padding: 2rem 1rem;">
+        Ad Space<br>300×250
+      </div>
+    </div>
+
+    <div class="ed-sidebar-block">
+      <h4>PrintWire Network</h4>
+      <div class="ed-network-links">
+        <a href="https://robot3dprint.com">Robot 3D Print</a>
+        <a href="https://3dprintgears.com">Gears</a>
+        <a href="https://dmls3d.com">Metal</a>
+        <a href="https://3dprintcircuitry.com">Electronics</a>
+        <a href="https://3dprinttissue.com">Bioprinting</a>
+        <a href="https://3dprintarchitecture.com">Architecture</a>
+        <a href="https://3dprintsolar.com">Solar</a>
+        <a href="https://sendcutship.com">Manufacturing</a>
+      </div>
+    </div>
+
+    <div class="ed-sidebar-block" style="background: linear-gradient(135deg, rgba(30,58,95,0.12), rgba(30,58,95,0.04)); border-color: var(--border-accent);">
+      <h4 style="color: var(--accent);">List Your Shop</h4>
+      <p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 1rem; line-height: 1.5;">Robotics printer, materials supplier, or service bureau? Get listed in the directory.</p>
+      <a href="contact.html" style="display:block;text-align:center;padding:0.65rem;background:var(--accent);border-radius:4px;color:#fff;font-weight:600;font-size:0.8rem;transition:background 0.25s;" onmouseover="this.style.background='var(--accent-dark)'" onmouseout="this.style.background='var(--accent)'">Get in Touch</a>
+    </div>
+
+  </aside>
+</div>
+
+<footer class="ed-footer">
+  <div class="ed-footer-inner">
+    <div class="ed-footer-brand">
+      <div class="ed-logo" style="font-size:1.3rem; margin-bottom: 0.5rem;">3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">ROBOTS</span></div>
+      <p>Additive manufacturing for robotics — printed arms, grippers, chassis, drones, and mechanisms. News, research, and a directory connecting engineers to suppliers. Part of the PrintWire network.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">News</a></li>
+        <li><a href="/articles/">Research</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Coverage</h4>
+      <ul>
+        <li><a href="#">Robotics</a></li>
+        <li><a href="#">Grippers</a></li>
+        <li><a href="#">Chassis &amp; Frames</a></li>
+        <li><a href="#">Drones</a></li>
+        <li><a href="advertise.html">Advertise With Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Applications</h4>
+      <ul>
+        <li><a href="#">Robotic Arms</a></li>
+        <li><a href="#">Grippers</a></li>
+        <li><a href="#">Chassis &amp; Frames</a></li>
+        <li><a href="#">Drone Airframes</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ed-footer-bottom">
+    <span>&copy; 2026 3D Print Robots. Part of the <a href="https://3dprint.space" style="color:var(--accent);">PrintWire</a> network.</span>
+    <span>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+document.querySelector('.ed-nav-toggle')?.addEventListener('click', () => {
+  document.querySelector('.ed-nav').classList.toggle('open');
+});
+
+(function() {
+  const btn = document.getElementById('themeToggle');
+  const root = document.documentElement;
+  function setTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    localStorage.setItem('ed-theme', theme);
+    btn.innerHTML = theme === 'dark' ? '&#9790;' : '&#9728;';
+    btn.title = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+  }
+  const saved = localStorage.getItem('ed-theme');
+  setTheme(saved || 'light');
+  btn.addEventListener('click', () => {
+    const current = root.getAttribute('data-theme') || 'light';
+    setTheme(current === 'dark' ? 'light' : 'dark');
+  });
+})();
+
+(function() {
+  var grid = document.getElementById('newsGrid');
+  var orig = document.getElementById('pwOriginals');
+
+  var feeds = [
+    { url: 'https://news.google.com/rss/search?q=3D+printed+robotics+additive+manufacturing&hl=en-US&gl=US&ceid=US:en', name: 'Google News' },
+    { url: 'https://news.google.com/rss/search?q=3D+printed+robot+arm+gripper&hl=en-US&gl=US&ceid=US:en', name: 'Google News' },
+    { url: 'https://news.google.com/rss/search?q=robot+chassis+drone+3D+printing&hl=en-US&gl=US&ceid=US:en', name: 'Google News' },
+    { url: 'https://3dprintingindustry.com/feed/', name: '3DPI' }
+  ];
+
+  var api = 'https://api.rss2json.com/v1/api.json?rss_url=';
+  var rss = [];
+  var localArts = [];
+  var loaded = 0;
+  var total = feeds.length;
+  var fallbackImgs = ['images/rb01_robot_arm.png','images/rb02_gripper.png','images/rb03_chassis.png','images/rb04_humanoid.png','images/rb05_quadruped.png','images/rb06_drone_frame.png','images/rb07_servo_mount.png','images/rb08_wheel_hub.png','images/rb09_cable_track.png'];
+
+  function stripHtml(html) {
+    var d = document.createElement('div'); d.innerHTML = html;
+    return d.textContent || '';
+  }
+  function esc(s) {
+    var d = document.createElement('div'); d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function card(a, i) {
+    var img = a.img || fallbackImgs[i % fallbackImgs.length];
+    var fb = fallbackImgs[(i+1) % fallbackImgs.length];
+    var open = a.local
+      ? 'onclick="location.href=\'' + esc(a.link) + '\'"'
+      : 'onclick="window.open(\'' + esc(a.link) + '\',\'_blank\',\'noopener\')"';
+    var linkAttrs = a.local ? 'href="' + esc(a.link) + '"'
+      : 'href="' + esc(a.link) + '" target="_blank" rel="noopener"';
+    var badge = a.local
+      ? '<span class="ed-badge" style="background:var(--accent);color:#fff;">' + esc(a.source) + '</span>'
+      : '<span class="ed-badge">' + esc(a.source) + '</span>';
+    return '<article class="ed-card" style="cursor:pointer" ' + open + '>' +
+      '<img class="ed-card-img" src="' + esc(img) + '" alt="" loading="lazy" onerror="this.onerror=null;this.src=\'' + fb + '\'">' +
+      '<div class="ed-card-body">' + badge +
+        '<div class="ed-card-meta">' + esc(a.dateStr || '') + '</div>' +
+        '<h3><a ' + linkAttrs + ' onclick="event.stopPropagation()">' + esc(a.title) + '</a></h3>' +
+        '<p class="ed-card-excerpt">' + esc(a.desc) + '</p>' +
+      '</div></article>';
+  }
+
+  var localReady = fetch('network.json', { cache: 'no-store' })
+    .then(function(r){ return r.ok ? r.json() : []; })
+    .then(function(items){
+      (items || []).forEach(function(it, i){
+        localArts.push({ title: it.title, link: it.url, desc: it.summary || '',
+          date: it.iso, dateStr: it.date, source: (it.origin || 'PrintWire'), local: true,
+          img: it.img || fallbackImgs[i % fallbackImgs.length] });
+      });
+      if (orig) {
+        orig.innerHTML = localArts.length
+          ? localArts.slice(0, 6).map(card).join('')
+          : '<div style="grid-column:1/-1;padding:1.5rem;color:var(--text-faint);">New PrintWire articles will appear here as they publish.</div>';
+      }
+    })
+    .catch(function(){ if (orig) orig.innerHTML = ''; });
+
+  var timeout = setTimeout(finish, 8000);
+  feeds.forEach(function(feed) {
+    fetch(api + encodeURIComponent(feed.url))
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+        if (data.status === 'ok' && data.items) {
+          data.items.forEach(function(item){
+            rss.push({ title: item.title, link: item.link,
+              desc: stripHtml(item.description).substring(0,140) + '…',
+              date: item.pubDate, source: feed.name, local: false,
+              img: item.thumbnail || (item.enclosure && item.enclosure.link) || '' });
+          });
+        }
+      })
+      .catch(function(){})
+      .then(function(){ loaded++; if (loaded === total) { clearTimeout(timeout); finish(); } });
+  });
+
+  var done = false;
+  function finish(){ if (done) return; done = true; localReady.then(render); }
+  function render(){
+    if (!grid) return;
+    var merged = localArts.concat(rss);
+    merged.forEach(function(a){ if (!a.dateStr && a.date) a.dateStr = new Date(a.date).toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'}); });
+    merged.sort(function(a,b){ return new Date(b.date) - new Date(a.date); });
+    var top = merged.slice(0, 8);
+    grid.innerHTML = top.length
+      ? top.map(card).join('')
+      : '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-faint);">Unable to load news.</div>';
+  }
+})();
+</script>
+</body>
+</html>
